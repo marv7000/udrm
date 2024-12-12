@@ -1,0 +1,30 @@
+# IDE Files
+.vscode/*
+.idea/*
+.cache/*
+
+# Output files
+cmake-build*/
+out/
+build/
+bin/
+
+# CMake cache files
+CMakeLists.txt.user
+CMakeCache.txt
+CMakeFiles
+CMakeScripts
+Testing
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+_deps
+
+# Build artifacts
+*.o
+*.so
+*.a
+
+# mdbook
+doc/book
