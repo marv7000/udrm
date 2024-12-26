@@ -1,0 +1,3 @@
+[submodule "include/uapi"]
+	path = include/udrm/uapi
+	url = https://github.com/uDrivers/uAPI

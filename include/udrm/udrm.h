@@ -1,3 +1,8 @@
-#pragma once
+#ifndef UDRM_H
+#define UDRM_H
 
-#include "common.h"
+#include "udrm/bochs.h"
+
+void udrm_initialize();
+
+#endif
