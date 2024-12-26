@@ -1,5 +1,5 @@
-#include "udrm/udrm.h"
 #include "udrm/kernel_api.h"
+#include "udrm/udrm.h"
 
 void udrm_initialize()
 {
