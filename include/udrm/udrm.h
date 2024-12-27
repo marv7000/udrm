@@ -1,8 +1,11 @@
-#ifndef UDRM_H
-#define UDRM_H
+#pragma once
 
-#include "udrm/bochs.h"
+#include <udrm/kernel_api.h>
 
-void udrm_initialize();
+UAPI_BEGIN_DECLS
 
-#endif
+// This is the entry point of the uDRM library.
+// This function must be called before any drivers are initialized.
+uapi_status udrm_initialize();
+
+UAPI_END_DECLS
