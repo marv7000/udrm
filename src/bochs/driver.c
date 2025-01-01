@@ -82,7 +82,7 @@ static uapi_status udrm_bochs_init(struct udrm_bochs_device* bochs)
 	return UAPI_STATUS_OK;
 }
 
-uapi_status udrm_bochs_probe(uapi_handle pci_device)
+uapi_status udrm_bochs_probe(uapi_pci_handle pci_device)
 {
 	if (pci_device == NULL)
 		return UAPI_STATUS_INVALID_ARGUMENT;
@@ -112,7 +112,7 @@ static uapi_status udrm_bochs_fini(struct udrm_bochs_device* bochs)
 	return UAPI_STATUS_OK;
 }
 
-uapi_status udrm_bochs_remove(uapi_handle pci_device)
+uapi_status udrm_bochs_remove(uapi_pci_handle pci_device)
 {
 	return udrm_bochs_fini(uapi_kernel_pci_get_ctx(pci_device));
 }
