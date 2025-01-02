@@ -8,8 +8,8 @@
 #define UAPI_WANTS_LOG
 #endif
 
-#ifndef UAPI_WANTS_MEMORY
-#define UAPI_WANTS_MEMORY
+#ifndef UAPI_WANTS_MALLOC
+#define UAPI_WANTS_MALLOC
 #endif
 
 #ifndef UAPI_WANTS_PCI
